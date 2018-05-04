@@ -1,3 +1,3 @@
 # jbong0.github.io
 
-**Github Live Address
+https://jbong0.github.io/JBR/
