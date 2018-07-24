@@ -313,3 +313,7 @@ footer {
 .project-item{
   border: #64a19d solid 1px;
 }
+
+#sign-up, .pt-4{
+  padding-top: 50%;
+}
