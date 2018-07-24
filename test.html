@@ -1,123 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+   <head>
+      
+      <meta charset="UTF-8">
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      
+      
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+      <!-- /Bootstrap CSS -->
+      
+      <!-- Custom CSS -->
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      
+      <!-- /Custom CSS -->
+      
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+      
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+      <title>JBR: Homepage</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    <!-- /Bootstrap CSS -->
+      <script src="anime.min.js"></script>
+      
+      
+   </head>
+   
+   
+   <body>
+      
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark opaBG fixed-top">
+         
+         <a class="navbar-brand text-white oswald" href="index.html">JBR</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon "></span>
+         </button>
+         <div class="collapse navbar-collapse " id="navbarSupportedContent">
+         <ul class="navbar-nav ml-auto">
+               <li class="nav-item show">
+                  <span class="nav-link text-white text-center" data-toggle="modal" data-target="#contactModalCenter">Contact</span>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <!-- end navbar -->
+      
+      <!-- main content -->
+      <!-- carousel slideshow -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            
+         </ol>
+         <div class="carousel-inner" role="listbox">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!-- /Custom CSS -->
+            <!-- Bio -->
+            <div class="carousel-item active" data-toggle="modal" data-target="#bioModalCenter"  style="background-image: url('assets/imgs/bblightscopy.jpg')">
+               <div class="carousel-caption d-none d-md-block mb-5"></div>
+            </div>
+            
+            <!-- Projects -->
+            <div class="carousel-item" data-toggle="modal" data-target="#projModalCenter" style="background-image: url('assets/imgs/sfskycopy.jpg')">
+               <div class="carousel-caption d-none d-md-block mb-5"></div>
+            </div>
+            
+            <!-- Links -->
+            <div class="carousel-item" data-toggle="modal" data-target="#linksModalCenter" style="background-image: url('assets/imgs/transAmcopy.jpg')">
+               <div class="carousel-caption d-none d-md-block mb-5"></div>
+            </div>
+         </div>
+         
+         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+         </a>
+      </div>
+      <!-- end main content -->
+      
+      <!-- footer -->
+      <div class="footer opaBG" id="footer">
+         <div class="col-md my-3 text-white text-md-right">
+            <small data-toggle="modal" data-target="#contactModalCenter" class="hide">Contact</small>
+            <small> &copy; 2017 Jessie Ramirez </small>
+         </div>
+      </div>
+      <!-- end footer -->
+      
+      <!-- Modals -->
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+      <!-- contact modal -->
+      <div class="modal fade" id="contactModalCenter" tabindex="-1" role="dialog" aria-labelledby="contactModalTitle" aria-hidden="true">
 
-    <title>JBR: Homepage</title>
-</head>
-
-<body>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-        <h1 id="projects" data-toggle="modal" data-target="#projModalCenter" class="hide">Portfolio</h1>
-        <div class="carousel-item" ata-toggle="modal" data-target="#projModalCenter" style="background-image: url('assets/imgs/sfskycopy.jpg')"></div>
-        <div class="modal fade" id="projModalCenter" tabindex="-1" role="dialog" aria-labelledby="#projModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                        <div class="modal-content opaBG text-white p-2">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="projModalLongTitle">Projects by JBR</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-md-6 col-lg-4">
-                                        <span class="imageCase">
-                                        <div class="card bg-dark mb-3">
-                                            <a href="https://jbong0.github.io/Hangman-Game/" target="_blank">
-                                            <img class="card-img-top morph img-fluid" src="assets/imgs/01.jpg" alt="Kawaii Fruit"></a>
-                                            <span class="middle">
-                                                <div class="text">Fruity Words</div>
-                                            </span>
-                                        </span>
-                                        </div>
-                                    </div>
-                        
-                                    <div class="col-md-6 col-lg-4">
-                                        <span class="imageCase">
-                                        <div class="card bg-dark mb-3">
-                                            <a href="https://jbong0.github.io/CrystalCollector/" target="_blank">
-                                            <img class="card-img-top morph img-fluid" src="assets/imgs/02.jpg" alt="Crystals"></a>
-                                            <span class="middle">
-                                                    <div class="text">Crystal Collector</div>
-                                                </span>
-                                        </span>
-                                        </div>
-                                    </div>
-                        
-                                    <div class="col-md-6 col-lg-4">
-                                        <span class="imageCase">
-                                        <div class="card  bg-dark mb-3">
-                                                <a href="https://jbong0.github.io/TriviaGame/">
-                                            <img class="card-img-top morph img-fluid" src="assets/imgs/03.jpg" alt="Jeopardy"></a>
-                                            <span class="middle">
-                                                    <div class="text">Jeopardy Trivia</div>
-                                                </span>
-                                        </span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4">
-                                        <span class="imageCase">
-                                        <div class="card  bg-dark ">
-                                            <a href ="https://jbong0.github.io/Gif-Tastic/"><img class="card-img-top morph img-fluid" src="assets/imgs/04.jpg" alt="Raining Food"></a>
-                                            <span class="middle">
-                                                    <div class="text">Yummy Gif-Tastic</div>
-                                                </span>
-                                        </span>
-                                        </div>
-                                    </div>
-                                <div class="col-md-6 col-lg-4">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            
+            <div class="modal-content opaBG text-white">
+               
+               <div class="modal-header">
+                  <h5 class="modal-title" id="contactModalTitle">Contact JBR</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               
+               <div class="modal-body">
+                  <div class="container">
+                        <div class="modSubj text-left my-1">Name:</div>
+                        <input type="text" class="form-control" id="name" placeholder="John Smith">
+                     <div class="modSubj text-left my-1"> E-mail Address: </div>
+                        <input type="text" class="form-control" id="email" placeholder="JohnSmith@gmail.com">
+                     <div class="modSubj text-left my-1">Message: </div>
+                        <textarea class="form-control" id="message-text" placeholder="Write a message here."></textarea>
+                     </div>
+               </div>
+               
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-secondary" id="sendMessage">Send Message</button>
+               </div>
+               
+            </div>
+            
+         </div>
+         
+      </div>
+      
+      <!-- end contact modal -->
+      
+      <!-- about me modal -->
+      <div class="modal fade" id="bioModalCenter" tabindex="-1" role="dialog" aria-labelledby="bioModalTitle" aria-hidden="true">
+         <div class="modal-dialog modal-lg modal-dialog-centered ">
+            <div class="modal-content opaBG text-white p-2">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="bioModalTitle">About Jessie</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               
+               <div class="modal-body">
+                  <span class="rounded float-left bioImg">
+                        <span class="rounded float-left bioImg">       
+                        <img src="assets/imgs/jbongo.jpg" class="show img-fluid m-5 jbon" alt="Photo of Jessie Ramirez">
+                        <img src="assets/imgs/jbongo.jpg" class="img-fluid hide m-4 jbon" alt="Photo of Jessie Ramirez">
+                        <p class="lead">San Francisco based Front-End Developer with Full-Stack Development experience. Persistently striving for excellence. Passionate about learning, organization, 
+                           and showcasing excellent work. Worked in various settings and have dealt with many different types of people. Past employers have promoted 
+                           me rapidly due to reliability, hard work and dedication. Ability to adjust to new and challenging environments. For many years, I have been fascinated with Web Development. 
+                           Curiosity in the field has lead me to teach myself the basics. Mastering these skills and languages have allowed me to utilize my knowledge to help others. 
+                           I believe that a in order to become a great developer, a desire for learning is necessary. Technology is constantly and rapidly evolving and my goal is to progress with the industry.
+                        </p>
+                           </span>
+                     </span>
+               </div>
+               
+            </div>
+            
+         </div>
+    </div>     
+         <!-- end about me modal -->
+         
+         <!-- projects modal -->
+         <div class="modal fade" id="projModalCenter" tabindex="-1" role="dialog" aria-labelledby="projModalTitle" aria-hidden="true">
+            
+            <div class="modal-dialog modal-lg">
+               
+               <div class="modal-content opaBG text-white p-2">
+                  <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                     </button>
+                  </div>
+                  <div class="modal-body">
+                        <div class="row">
+                              <div class="col-md-6 col-lg-4">
                                     <span class="imageCase">
-                                    <div class="card  bg-dark mb-3">
-                                        <a href ="https://jbong0.github.io/BART-Train-Schedule/"><img class="card-img-top morph img-fluid" src="assets/imgs/05.jpg" alt="Bart Train"></a>
-                                        <span class="middle">
-                                                <div class="text">Bart Train Scheduler</div>
-                                            </span>
-                                    </span>
+                                          <div class="card bg-dark mb-3">
+                                                <a href="https://jbong0.github.io/Hangman-Game/" target="_blank">
+                                 <img class="card-img-top morph img-fluid" src="assets/imgs/01.jpg" alt="Kawaii Fruit"></a>
+                                 <div class="middle">
+                                                      <div class="text">Fruity Words</div>
+                                                   </div>
+                                             </div>
+                                       </span>
+                                 </div>
+                                    <div class="col-md-6 col-lg-4">
+                                    <span class="imageCase">
+                                          <div class="card bg-dark mb-3">
+                                                <a href="https://jbong0.github.io/CrystalCollector/" target="_blank">
+                                 <img class="card-img-top morph img-fluid" src="assets/imgs/02.jpg" alt="Crystals"></a>
+                                 <div class="middle">
+                                                      <div class="text">Crystal Collector</div>
+                                                   </div>
+                                             </div>
+                                       </span>
+                                 </div>
+                                    <div class="col-md-6 col-lg-4">
+                                    <span class="imageCase">
+                                          <div class="card  bg-dark mb-3">
+                                                <a href="https://jbong0.github.io/TriviaGame/">
+                                 <img class="card-img-top morph img-fluid fluid" src="assets/imgs/03.jpg" alt="Jeopardy"></a>
+                                 <div class="middle">
+                                                      <div class="text">Jeopardy Trivia</div>
+                                                   </div>
+                                             </span>
+                                       </div>
+                                 </div>
+                              <div class="col-md-6 col-lg-4">
+                                    <span class="imageCase">
+                                          <div class="card  bg-dark ">
+                                                <a href ="https://jbong0.github.io/Gif-Tastic/"><img class="card-img-top morph img-fluid" src="assets/imgs/04.jpg" alt="Raining Food"></a>
+                                 <div class="middle">
+                                                      <div class="text">Yummy Gif-Tastic</div>
+                                                   </div>
+                                             </span>
+                                       </div>
+                                 </div>
+                              <div class="col-md-6 col-lg-4">
+                                    <span class="imageCase">
+                                          <div class="card  bg-dark mb-3">
+                                                <a href ="https://jbong0.github.io/BART-Train-Schedule/"><img class="card-img-top morph img-fluid" src="assets/imgs/05.jpg" alt="Bart Train"></a>
+                                 <div class="middle">
+                                                      <div class="text">Bart Train Scheduler</div>
+                                                   </div>
+                                             </span>
+                                       </div>
+                                 </div>
+                              <div class="col-md-6 col-lg-4">
+                                    <span class="imageCase">
+                                          <div class="card bg-dark mb-3">
+                                                <a href ="https://bud-buddy.github.io/BudBuddy/"><img class="card-img-top morph img-fluid" src="assets/imgs/06.jpg" alt="Bud Buddy"></a>
+                                 <div class="middle">
+                                                      <div class="text">Bud Buddy</div>
+                                                   </div>
+                                             </div>
+                                       </span>
+                                 </div>
+                                 <div class="col-md-6 col-lg-4">
+                                    <span class="imageCase">
+                                          <div class="card  bg-dark ">
+                                                <a href ="https://github.com/jbong0/liri-node-app"><img class="card-img-top morph img-fluid" src="assets/imgs/07.jpg" alt="Raining Food"></a>
+                                 <div class="middle">
+                                                      <div class="text">LIRI Node Application</div>
+                                                   </div>
+                                             </span>
+                                    
                                     </div>
-                                </div>
-                            <div class="col-md-6 col-lg-4">
-                                <span class="imageCase">
-                                <div class="card bg-dark mb-3">
-                                    <a href ="https://bud-buddy.github.io/BudBuddy/"><img class="card-img-top morph img-fluid" src="assets/imgs/06.jpg" alt="Bud Buddy"></a>
-                                    <span class="middle">
-                                            <div class="text">Bud Buddy</div>
-                                        </span>
-                                </span>
-                                </div>
-                            </div>
-                        </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        <!-- end projects modal -->
-
-
-</body>
+                                 </div>
+                                 <div class="col-md-6 col-lg-4">
+                                    <span class="imageCase">
+                                          <div class="card bg-dark mb-3">
+                                                <a href ="https://github.com/jbong0/bamazon"><img class="card-img-top morph img-fluid" src="assets/imgs/08.jpg" alt="Bamazon"></a>
+                                 <div class="middle">
+                                                      <div class="text">Bamazon: Sports Edition</div>
+                                                   </div>
+                                             </div>
+                                       </span>
+                                 </div>
+                           <div class="col-md-6 col-lg-4">
+                              <span class="imageCase">
+                                    <div class="card  bg-dark ">
+                                          <a href ="https://mighty-gorge-30765.herokuapp.com/"><img class="card-img-top morph img-fluid" src="assets/imgs/09.jpg" alt="Raining Food"></a>
+                           <div class="middle">
+                                                <div class="text">Foodie Friend Finder</div>
+                                             </div>
+                                       </span>
+                              </div>
+                           </div>
+                           <div class="col-md-6 col-lg-4">
+                              <span class="imageCase">
+                                    <div class="card  bg-dark ">
+                                          <a href ="https://shrouded-lowlands-67513.herokuapp.com/"><img class="card-img-top morph img-fluid" src="assets/imgs/10.jpg" alt="Raining Food"></a>
+                           <div class="middle">
+                                                <div class="text">Eat Da Burger</div>
+                                             </div>
+                                       </span>
+                              </div>
+                           </div>
+                           <div class="col-md-6 col-lg-4">
+                              <span class="imageCase">
+                                    <div class="card  bg-dark ">
+                                          <a href ="https://adgth.herokuapp.com/"><img class="card-img-top morph img-fluid" src="assets/imgs/11.jpg" alt="Raining Food"></a>
+                           <div class="middle">
+                                                <div class="text">ADGTH</div>
+                                             </div>
+                                       </span>
+                              </div>
+                           </div>
+                           <div class="col-md-6 col-lg-4">
+                              <span class="imageCase">
+                                    <div class="card  bg-dark ">
+                                          <a href ="https://mongoosecheerioscraper.herokuapp.com/"><img class="card-img-top morph img-fluid" src="assets/imgs/12.jpg" alt="Raining Food"></a>
+                           <div class="middle">
+                                                <div class="text">NYT Scraper</div>
+                                             </div>
+                                       </span>
+                              </div>
+                           </div>
+                                 <!-- <div class="col-md-6 col-lg-4">
+                                    <span class="imageCase">
+                                          <div class="card bg-dark mb-3">
+                                                <a href ="https://github.com/jbong0/bamazon"><img class="card-img-top morph img-fluid" src="assets/imgs/08.jpg" alt="Bamazon"></a>
+                                 <div class="middle">
+                                                      <div class="text">Bamazon: Sports Edition</div>
+                                                   </div>
+                                             </div>
+                                       </span>
+                                 </div>
+                           </div> -->
+                     </div>
+               </div>
+               
+            </div>
+            
+         </div>
+         
+      </div>
+      
+      <!-- end projects modal -->
+      
+      
+      <!-- links modal -->
+      <div class="modal fade" id="linksModalCenter" tabindex="-1" role="dialog" aria-labelledby="linksModalTitle" aria-hidden="true">
+         
+         <div class="modal-dialog modal-lg modal-dialog-centered ">
+            
+            <div class="modal-content opaBG text-white p-2">
+               
+               <div class="modal-header">
+                  <h5 class="modal-title" id="linksModalTitle">JBR Links</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               
+               <div class="modal-body">
+                  <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                              <span div class="imageCase">
+                                    <div class="card bg-dark mb-3">
+                                          <a href="https://www.linkedin.com/in/jessiebon/" target="_blank">
+                              <img class="card-img-top morph img-fluid" src="assets/imgs/linkedinlogo.png" alt="LinkedIn Logo"></a>
+                              <div class="middle">
+                                                <div class="text">LinkedIn</div>
+                                             </div>
+                                       </div>
+                                 </span>
+                           </div>
+                           <div class="col-md-6 col-lg-4">
+                              <span class="imageCase">
+                                    <div class="card bg-dark mb-3">
+                                          <a href="https://github.com/jbong0" target="_blank">
+                              <img class="card-img-top morph img-fluid" src="assets/imgs/githublogo.jpg" alt="GitHub Logo"></a>
+                              <div class="middle">
+                                                <div class="text">GitHub</div>
+                                             </div>
+                                       </div>
+                                 </span>
+                           </div>
+                        <div class="col-md-6 col-lg-4">
+                              <span class="imageCase">
+                                    <div class="card bg-dark mb-3">
+                                          <a href="https://stackoverflow.com/users/9216731/jessiebon" target="_blank">
+                              <img class="card-img-top morph img-fluid" src="assets/imgs/overflowlogo.png" alt="Stack Logo"></a>
+                              <div class="middle">
+                                                <div class="text">Stack Overflow</div>
+                                             </div>
+                                       </div>
+                                 </span>
+                           </div>
+                     </div>
+               </div>
+               
+            </div>
+         </div>
+         
+      </div>
+      
+      
+      <!-- end links modal -->
+      
+      <!-- bootstrap js -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+   </body>
+   
 </html>
 
+
+<script>
+      anime({
+  targets: 'div',
+  translateX: [
+    { value: 100, duration: 1200 },
+    { value: 0, duration: 800 }
+  ],
+  rotate: '1turn',
+  backgroundColor: '#FFF',
+  duration: 2000,
+  loop: true
+});
+</script>

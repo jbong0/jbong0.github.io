@@ -28,6 +28,8 @@
       
       <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
       <title>JBR: Homepage</title>
+
+      <script src="anime.min.js"></script>
       
       
    </head>
@@ -398,3 +400,18 @@
    </body>
    
 </html>
+
+
+<script>
+      anime({
+  targets: 'div',
+  translateX: [
+    { value: 100, duration: 1200 },
+    { value: 0, duration: 800 }
+  ],
+  rotate: '1turn',
+  backgroundColor: '#FFF',
+  duration: 2000,
+  loop: true
+});
+</script>
