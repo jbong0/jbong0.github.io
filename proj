@@ -1,274 +1,262 @@
-
-<!-- 
-
-
-
-
         <!-- Carousel Section 3 -->
         <div class="carousel-item">
           
-          <!-- Project One Row -->
-          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-              <div class="col-lg-6">
-                <!-- <a href="https://nytscrapearticles.herokuapp.com/" target="_blank"> -->
-                  <img class="img-fluid" src="img/12.jpg" alt="man reading newspaper">
-                </a>
-              </div>
-              <div class="col-lg-6">
-                <div class="bg-black text-center h-100 project">
-                  <div class="d-flex h-100">
-                    <div class="project-text w-100 my-auto text-center text-lg-left">
-                      <h4 class="text-white">New York Times - Article Scraper</h4>
-                      <p class="mb-0 text-white-50">Class Assignment<br> Developer</p>
-                      <hr class="d-none d-lg-block mb-0 ml-0"><br>
-                      <button class="p-2 btn btn-info btn-sm">Materialize</button>
-                      <button class="p-2 btn btn-info btn-sm">Mongoose</button>
-                      <button class="p-2 btn btn-info btn-sm">Cheerio</button>
-                      <button class="p-2 btn btn-info btn-sm">MongoDB</button>
+            <!-- Project One Row -->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6">
+                  <a href="https://nytscrapearticles.herokuapp.com/" target="_blank">
+                    <img class="img-fluid" src="img/12.jpg" alt="man reading newspaper">
+                  </a>
+                </div>
+                <div class="col-lg-6">
+                  <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                      <div class="project-text w-100 my-auto text-center text-lg-left">
+                        <h4 class="text-white">New York Times - Article Scraper</h4>
+                        <p class="mb-0 text-white-50">Class Assignment<br> Developer</p>
+                        <hr class="d-none d-lg-block mb-0 ml-0"><br>
+                        <button class="p-2 btn btn-info btn-sm">Materialize</button>
+                        <button class="p-2 btn btn-info btn-sm">Mongoose</button>
+                        <button class="p-2 btn btn-info btn-sm">Cheerio</button>
+                        <button class="p-2 btn btn-info btn-sm">MongoDB</button>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+  
+              <!-- Project Two Row -->
+              <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6">
+                  <a href="https://shrouded-lowlands-67513.herokuapp.com/" target="_blank">
+                    <img class="img-fluid" src="img/10.jpg" alt="Hamburger">
+                  </a>
+                </div>
+                <div class="col-lg-6 order-lg-first">
+                  <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                      <div class="project-text w-100 my-auto text-center text-lg-right">
+                        <h4 class="text-white">EatABurger </h4>
+                        <p class="mb-0 text-white-50">Class Assignment<br>Developer</p>
+                        <hr class="d-none d-lg-block mb-0 mr-0"><br>
+                        <button class="p-2 btn btn-info btn-sm">MongoDB</button>
+                        <button class="p-2 btn btn-info btn-sm">Materialize</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>             
+  
+          </div> <!-- end carousel section -->
 
-            <!-- Project Two Row -->
-            <div class="row justify-content-center no-gutters">
-              <div class="col-lg-6">
-                <!-- <a href="https://shrouded-lowlands-67513.herokuapp.com/" target="_blank"> -->
-                  <img class="img-fluid" src="img/10.jpg" alt="Hamburger">
-                </a>
-              </div>
-              <div class="col-lg-6 order-lg-first">
-                <div class="bg-black text-center h-100 project">
-                  <div class="d-flex h-100">
-                    <div class="project-text w-100 my-auto text-center text-lg-right">
-                      <h4 class="text-white">EatABurger </h4>
-                      <p class="mb-0 text-white-50">Class Assignment<br>Developer</p>
-                      <hr class="d-none d-lg-block mb-0 mr-0"><br>
-                      <button class="p-2 btn btn-info btn-sm">MongoDB</button>
-                      <button class="p-2 btn btn-info btn-sm">Materialize</button>
+        <!-- Carousel Section 4 -->
+        <div class="carousel-item">
+          
+            <!-- Project One Row -->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6">
+                  <a href="https://mighty-gorge-30765.herokuapp.com/" target="_blank">
+                    <img class="img-fluid" src="img/09.jpg" alt="Couple On Date">
+                  </a>
+                </div>
+                <div class="col-lg-6">
+                  <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                      <div class="project-text w-100 my-auto text-center text-lg-left">
+                        <h4 class="text-white">Friend Finder</h4>
+                        <p class="mb-0 text-white-50">Class Assignment<br>Developer</p>
+                        <hr class="d-none d-lg-block mb-0 ml-0"><br>
+                        <button class="p-2 btn btn-info btn-sm">Bootstrap</button>
+                        <button class="p-2 btn btn-info btn-sm">ExpressJS</button>
+                        <button class="p-2 btn btn-info btn-sm">JQuery</button>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>             
+  
+              <!-- Project Two Row -->
+              <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6">
+                  <a href="https://github.com/jbong0/bamazon" target="_blank">
+                    <img class="img-fluid" src="img/08.jpg" alt="Basketball Hoop">
+                  </a>
+                </div>
+                <div class="col-lg-6 order-lg-first">
+                  <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                      <div class="project-text w-100 my-auto text-center text-lg-right">
+                        <h4 class="text-white">Bamazon: NBA Edition</h4>
+                        <p class="mb-0 text-white-50">Class Assignment<br>Developer</p>
+                        <hr class="d-none d-lg-block mb-0 mr-0"><br>
+                        <button class="p-2 btn btn-info btn-sm">NodeJS</button>
+                        <button class="p-2 btn btn-info btn-sm">MySQL</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>             
+  
+          </div> <!-- end carousel section -->
 
-        </div> <!-- end carousel section -->
-
-      <!-- Carousel Section 4 -->
-      <div class="carousel-item">
-        
-          <!-- Project One Row -->
-          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-              <div class="col-lg-6">
-                <!-- <a href="https://mighty-gorge-30765.herokuapp.com/" target="_blank"> -->
-                  <img class="img-fluid" src="img/09.jpg" alt="Couple On Date">
-                </a>
-              </div>
-              <div class="col-lg-6">
-                <div class="bg-black text-center h-100 project">
-                  <div class="d-flex h-100">
-                    <div class="project-text w-100 my-auto text-center text-lg-left">
-                      <h4 class="text-white">Friend Finder</h4>
-                      <p class="mb-0 text-white-50">Class Assignment<br>Developer</p>
-                      <hr class="d-none d-lg-block mb-0 ml-0"><br>
-                      <button class="p-2 btn btn-info btn-sm">Bootstrap</button>
-                      <button class="p-2 btn btn-info btn-sm">ExpressJS</button>
-                      <button class="p-2 btn btn-info btn-sm">JQuery</button>
+        <!-- Carousel Section 5 -->
+        <div class="carousel-item">
+          
+            <!-- Project One Row -->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6">
+                  <a href="https://github.com/jbong0/liri-node-app" target="_blank">
+                    <img class="img-fluid" src="img/07.jpg" alt="Media">
+                  </a>
+                </div>
+                <div class="col-lg-6">
+                  <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                      <div class="project-text w-100 my-auto text-center text-lg-left">
+                        <h4 class="text-white">L.I.R.I</h4>
+                        <p class="mb-0 text-white-50">Class Assignment<br>Developer</p>
+                        <hr class="d-none d-lg-block mb-0 ml-0"><br>
+                        <button class="p-2 btn btn-info btn-sm">NodeJS</button>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+  
+              <!-- Project Two Row -->
+              <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6">
+                  <a href="https://jbong0.github.io/BART-Train-Schedule/" target="_blank">
+                    <img class="img-fluid" src="img/05.jpg" alt="Train Tracks">
+                  </a>
+                </div>
+                <div class="col-lg-6 order-lg-first">
+                  <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                      <div class="project-text w-100 my-auto text-center text-lg-right">
+                        <h4 class="text-white">Bart Train Scheduler</h4>
+                        <p class="mb-0 text-white-50">Class Assignment<br>Developer</p>
+                        <hr class="d-none d-lg-block mb-0 mr-0"><br>
+                        <button class="p-2 btn btn-info btn-sm">JQuery</button>
+                        <button class="p-2 btn btn-info btn-sm">Firebase</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>             
+  
+          </div> <!-- end carousel section -->
 
-            <!-- Project Two Row -->
-            <div class="row justify-content-center no-gutters">
-              <div class="col-lg-6">
-                <!-- <a href="https://github.com/jbong0/bamazon" target="_blank"> -->
-                  <img class="img-fluid" src="img/08.jpg" alt="Basketball Hoop">
-                </a>
-              </div>
-              <div class="col-lg-6 order-lg-first">
-                <div class="bg-black text-center h-100 project">
-                  <div class="d-flex h-100">
-                    <div class="project-text w-100 my-auto text-center text-lg-right">
-                      <h4 class="text-white">Bamazon: NBA Edition</h4>
-                      <p class="mb-0 text-white-50">Class Assignment<br>Developer</p>
-                      <hr class="d-none d-lg-block mb-0 mr-0"><br>
-                      <button class="p-2 btn btn-info btn-sm">NodeJS</button>
-                      <button class="p-2 btn btn-info btn-sm">MySQL</button>
+        <!-- Carousel Section 6 -->
+        <div class="carousel-item">
+          
+            <!-- Project One Row -->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6">
+                  <a href="https://jbong0.github.io/Gif-Tastic/" target="_blank">
+                    <img class="img-fluid" src="img/04.jpg" alt="pizza">
+                  </a>
+                </div>
+                <div class="col-lg-6">
+                  <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                      <div class="project-text w-100 my-auto text-center text-lg-left">
+                        <h4 class="text-white">YUMM! Gif-Tastic</h4>
+                        <p class="mb-0 text-white-50">Class Assignment<br> Developer</p>
+                        <hr class="d-none d-lg-block mb-0 ml-0"><br>
+                        <button class="p-2 btn btn-info btn-sm">AJAX</button>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>             
+  
+              <!-- Project Two Row -->
+              <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6">
+                  <a href="https://jbong0.github.io/TriviaGame/" target="_blank">
+                    <img class="img-fluid" src="img/03.jpg" alt="Light Bulb and Question Mark">
+                  </a>
+                </div>
+                <div class="col-lg-6 order-lg-first">
+                  <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                      <div class="project-text w-100 my-auto text-center text-lg-right">
+                        <h4 class="text-white">Trivia Game</h4>
+                        <p class="mb-0 text-white-50">Class Assignment<br>Developer</p>
+                        <hr class="d-none d-lg-block mb-0 mr-0"><br>
+                        <button class="p-2 btn btn-info btn-sm">JQuery</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>             
+  
+          </div> <!-- end carousel section -->
 
-        </div> <!-- end carousel section -->
-
-      <!-- Carousel Section 5 -->
-      <div class="carousel-item">
-        
-          <!-- Project One Row -->
-          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-              <div class="col-lg-6">
-                <!-- <a href="https://github.com/jbong0/liri-node-app" target="_blank"> -->
-                  <img class="img-fluid" src="img/07.jpg" alt="Media">
-                </a>
-              </div>
-              <div class="col-lg-6">
-                <div class="bg-black text-center h-100 project">
-                  <div class="d-flex h-100">
-                    <div class="project-text w-100 my-auto text-center text-lg-left">
-                      <h4 class="text-white">L.I.R.I</h4>
-                      <p class="mb-0 text-white-50">Class Assignment<br>Developer</p>
-                      <hr class="d-none d-lg-block mb-0 ml-0"><br>
-                      <button class="p-2 btn btn-info btn-sm">NodeJS</button>
+        <!-- Carousel Section 7 -->
+        <div class="carousel-item">
+          
+            <!-- Project One Row -->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6">
+                  <a href="https://jbong0.github.io/CrystalCollector/" target="_blank">
+                    <img class="img-fluid" src="img/02.jpg" alt="Inside of Geode">
+                  </a>
+                </div>
+                <div class="col-lg-6">
+                  <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                      <div class="project-text w-100 my-auto text-center text-lg-left">
+                        <h4 class="text-white">Crystal Collector Game</h4>
+                        <p class="mb-0 text-white-50">Class Project</p>
+                        <hr class="d-none d-lg-block mb-0 ml-0"><br>
+                        <button class="p-2 btn btn-info btn-sm">JQuery</button>
+                        <button class="p-2 btn btn-info btn-sm">HTML</button>
+                        <button class="p-2 btn btn-info btn-sm">CSS</button>
+                        <button class="p-2 btn btn-info btn-sm">JavaScript</button>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <!-- Project Two Row -->
-            <div class="row justify-content-center no-gutters">
-              <div class="col-lg-6">
-                <!-- <a href="https://jbong0.github.io/BART-Train-Schedule/" target="_blank"> -->
-                  <img class="img-fluid" src="img/05.jpg" alt="Train Tracks">
-                </a>
-              </div>
-              <div class="col-lg-6 order-lg-first">
-                <div class="bg-black text-center h-100 project">
-                  <div class="d-flex h-100">
-                    <div class="project-text w-100 my-auto text-center text-lg-right">
-                      <h4 class="text-white">Bart Train Scheduler</h4>
-                      <p class="mb-0 text-white-50">Class Assignment<br>Developer</p>
-                      <hr class="d-none d-lg-block mb-0 mr-0"><br>
-                      <button class="p-2 btn btn-info btn-sm">JQuery</button>
-                      <button class="p-2 btn btn-info btn-sm">Firebase</button>
+  
+              <!-- Project Two Row -->
+              <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6">
+                  <a href="https://jbong0.github.io/Hangman-Game/" target="_blank">
+                    <img class="img-fluid" src="img/01.jpg" alt="Fruit">
+                  </a>
+                </div>
+                <div class="col-lg-6 order-lg-first">
+                  <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                      <div class="project-text w-100 my-auto text-center text-lg-right">
+                        <h4 class="text-white">Fruit Hangman</h4>
+                        <p class="mb-0 text-white-50">Class Project</p>
+                        <hr class="d-none d-lg-block mb-0 mr-0"><br>
+                        <button class="p-2 btn btn-info btn-sm">HTML</button>
+                        <button class="p-2 btn btn-info btn-sm">CSS</button>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>             
+              </div>             
+  
+          </div> <!-- end carousel section -->
+      
+        <!-- Previous Arrow -->
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
 
-        </div> <!-- end carousel section -->
-
-      <!-- Carousel Section 6 -->
-      <div class="carousel-item">
-        
-          <!-- Project One Row -->
-          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-              <div class="col-lg-6">
-                <!-- <a href="https://jbong0.github.io/Gif-Tastic/" target="_blank"> -->
-                  <img class="img-fluid" src="img/04.jpg" alt="pizza">
-                </a>
-              </div>
-              <div class="col-lg-6">
-                <div class="bg-black text-center h-100 project">
-                  <div class="d-flex h-100">
-                    <div class="project-text w-100 my-auto text-center text-lg-left">
-                      <h4 class="text-white">YUMM! Gif-Tastic</h4>
-                      <p class="mb-0 text-white-50">Class Assignment<br> Developer</p>
-                      <hr class="d-none d-lg-block mb-0 ml-0"><br>
-                      <button class="p-2 btn btn-info btn-sm">AJAX</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Project Two Row -->
-            <div class="row justify-content-center no-gutters">
-              <div class="col-lg-6">
-                <!-- <a href="https://jbong0.github.io/TriviaGame/" target="_blank"> -->
-                  <img class="img-fluid" src="img/03.jpg" alt="Light Bulb and Question Mark">
-                </a>
-              </div>
-              <div class="col-lg-6 order-lg-first">
-                <div class="bg-black text-center h-100 project">
-                  <div class="d-flex h-100">
-                    <div class="project-text w-100 my-auto text-center text-lg-right">
-                      <h4 class="text-white">Trivia Game</h4>
-                      <p class="mb-0 text-white-50">Class Assignment<br>Developer</p>
-                      <hr class="d-none d-lg-block mb-0 mr-0"><br>
-                      <button class="p-2 btn btn-info btn-sm">JQuery</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>             
-
-        </div> <!-- end carousel section -->
-
-      <!-- Carousel Section 7 -->
-      <div class="carousel-item">
-        
-          <!-- Project One Row -->
-          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-              <div class="col-lg-6">
-                <a href="https://jbong0.github.io/CrystalCollector/" target="_blank">
-                  <img class="img-fluid" src="img/02.jpg" alt="Inside of Geode">
-                </a>
-              </div>
-              <div class="col-lg-6">
-                <div class="bg-black text-center h-100 project">
-                  <div class="d-flex h-100">
-                    <div class="project-text w-100 my-auto text-center text-lg-left">
-                      <h4 class="text-white">Crystal Collector Game</h4>
-                      <p class="mb-0 text-white-50">Class Project</p>
-                      <hr class="d-none d-lg-block mb-0 ml-0"><br>
-                      <button class="p-2 btn btn-info btn-sm">JQuery</button>
-                      <button class="p-2 btn btn-info btn-sm">HTML</button>
-                      <button class="p-2 btn btn-info btn-sm">CSS</button>
-                      <button class="p-2 btn btn-info btn-sm">JavaScript</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Project Two Row -->
-            <div class="row justify-content-center no-gutters">
-              <div class="col-lg-6">
-                <a href="https://jbong0.github.io/Hangman-Game/" target="_blank">
-                  <img class="img-fluid" src="img/01.jpg" alt="Fruit">
-                </a>
-              </div>
-              <div class="col-lg-6 order-lg-first">
-                <div class="bg-black text-center h-100 project">
-                  <div class="d-flex h-100">
-                    <div class="project-text w-100 my-auto text-center text-lg-right">
-                      <h4 class="text-white">Fruit Hangman</h4>
-                      <p class="mb-0 text-white-50">Class Project</p>
-                      <hr class="d-none d-lg-block mb-0 mr-0"><br>
-                      <button class="p-2 btn btn-info btn-sm">HTML</button>
-                      <button class="p-2 btn btn-info btn-sm">CSS</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>             
-
-        </div> end carousel section
+        <!-- Next Arrow -->
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- -->
+        </div>
+      </div><!-- end carousel
